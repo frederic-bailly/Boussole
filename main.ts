@@ -1,4 +1,5 @@
 basic.showIcon(IconNames.Heart)
+basic.pause(500)
 basic.forever(function () {
     if (input.compassHeading() <= 22) {
         basic.showArrow(ArrowNames.North)
